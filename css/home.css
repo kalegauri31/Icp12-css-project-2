@@ -94,26 +94,27 @@ body {
         position: static;
     }
 
-    @media (min-width: 768px) and (max-width: 992px) {
-        .input-box {
-            display: none;
-        }
 
-        .back-img {
+}
 
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            margin-top: 130px;
-            max-width: 100%;
-            height: auto;
-            background-image: url("home-main-img.jpg");
-            background-size: contain;
-            background-position: center;
-            background-repeat: no-repeat;
-            aspect-ratio: 1/1;
+@media (min-width: 768px) and (max-width: 992px) {
+    .input-box {
+        display: none;
+    }
 
-        }
+    .back-img {
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 130px;
+        max-width: 100%;
+        /* height: auto; */
+        background-image: url("home-main-img.jpg");
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        aspect-ratio: 1/1;
     }
 }
 
@@ -130,8 +131,8 @@ body {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         background-color: #f2f1f1;
         margin-top: 23px;
-
     }
+
 }
 
 .input-box {
@@ -169,6 +170,7 @@ body {
 
 }
 
+
 .main-heading {
     font-size: 25px;
     text-align: center;
@@ -176,14 +178,18 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
-.main-content, .main-content-2, .main-content-3 {
-    margin-left: 180px;
-    margin-right: 180px;
+.main-content,
+.main-content-2,
+.main-content-3 {
+    margin-left: 150px;
+    margin-right: 150px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    /* margin-top: 5px;
+    margin-bottom: 5px; */
+    /* align-items: start; */
 }
 
 .card-img {
@@ -195,6 +201,7 @@ body {
     flex-direction: column;
     justify-content: start;
     width: 200px;
+    padding: 15px;
 }
 
 .info {
@@ -206,6 +213,7 @@ body {
     margin: 0px;
     margin-top: 20px;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .original-price {
@@ -216,6 +224,7 @@ body {
     color: #252525;
 
 }
+
 .del-price {
     display: inline-block;
     margin-right: 7px;
