@@ -2,7 +2,7 @@ body{
     padding: 0px;
     margin: 0px;
 }
-.hero {
+.main {
       background-image: url('https://img.freepik.com/free-photo/spring-wardrobe-switch-still-life_23-2150176694.jpg?uid=R204388906&ga=GA1.1.104672804.1736333563&w=740');
       background-size: cover;
       background-position: center;
@@ -15,11 +15,11 @@ body{
       text-align: center;
     }
 
-    .hero h2 {
+    .main h2 {
       font-size: 48px;
       margin-bottom: 10px;
     }
 
-    .hero p {
+    .main p {
       font-size: 20px;
     }
