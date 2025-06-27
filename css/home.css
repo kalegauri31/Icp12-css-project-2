@@ -118,7 +118,7 @@ body {
     }
 }
 
-@media (max-width:760px) {
+@media (max-width:768px) {
     .input-box {
         border: none;
         /* border: 1px solid #707070; */
@@ -132,7 +132,6 @@ body {
         background-color: #f2f1f1;
         margin-top: 23px;
     }
-
 }
 
 .input-box {
@@ -178,29 +177,28 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
-.main-content,
-.main-content-2,
-.main-content-3 {
-    margin-left: 150px;
-    margin-right: 150px;
+
+.main-content {
+    /* margin-left: 150px;
+    margin-right: 150px; */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     /* margin-top: 5px;
     margin-bottom: 5px; */
-    /* align-items: start; */
+    align-items: start;
 }
 
 .card-img {
-    width: 200px;
+    width: 210px;
 }
 
 .card {
     display: flex;
     flex-direction: column;
     justify-content: start;
-    width: 200px;
+    width: 210px;
     padding: 15px;
 }
 
@@ -213,7 +211,7 @@ body {
     margin: 0px;
     margin-top: 20px;
     text-transform: uppercase;
-    text-align: center;
+    text-align: start;
 }
 
 .original-price {
