@@ -404,3 +404,8 @@ body {
     }
 
 }
+
+.info:hover {
+    color: #19c880;
+    transition: 0.2s;
+}
