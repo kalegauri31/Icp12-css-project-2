@@ -117,6 +117,18 @@ body {
         background-repeat: no-repeat;
         aspect-ratio: 1/1;
     }
+
+    .reviews {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #FFD6AA;
+        padding: 15px;
+        align-items: center;
+        text-align: center;
+    }
+
+}
 }
 
 @media (max-width:768px) {
@@ -238,4 +250,68 @@ body {
     flex-direction: row;
     justify-content: space-around;
     display: inline-block;
+}
+
+
+.reviews {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #FFD6AA;
+    padding: 15px;
+    align-items: center;
+}
+
+.reviews-head {
+    padding-top: 30px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    text-transform: uppercase;
+}
+
+.title-reviews {
+
+    display: inline-block;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.msg {
+
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+.name {
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #A52A2A;
+    font-weight: bold;
+    margin-bottom: 30px;
+
+}
+
+@media (max-width : 768px) {
+
+    .reviews {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        background-color: #FFD6AA;
+        padding: 0px;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .msg {
+
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
 }
