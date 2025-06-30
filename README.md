@@ -68,7 +68,7 @@ This project is built for learning and showcasing front-end development skills.
 
 Contributers -
 
-<p align="center"> <a href="https://github.com/OmKadam-1"> <img src="https://avatars.githubusercontent.com/OmKadam-1" width="70px;" alt="Om Kadam"/><br /> <sub><b>Om Kadam</b></sub> </a>
+<a href="https://github.com/OmKadam-1"> <img src="https://avatars.githubusercontent.com/OmKadam-1" width="70px;" alt="Om Kadam"/><br /> <sub><b>Om Kadam</b></sub> </a>
   
 
 <a href="https://github.com/AtharvBolke99"> <img src="https://avatars.githubusercontent.com/AtharvBolke99" width="70px;" alt="Atharv Bolke"/><br /> <sub><b>Atharv Bolke</b></sub> </a>
