@@ -67,6 +67,14 @@ form button:hover {
   text-decoration: none;
 }
 
+.button2 {
+  color: white;
+}
+
+.button1 {
+  color: white;
+}
+
 /* For tablets and smaller laptops */
 @media (max-width: 768px) {
   .auth-container {
