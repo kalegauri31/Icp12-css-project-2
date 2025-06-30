@@ -1,0 +1,106 @@
+
+body {
+  background-image: url(../images/login\ background.png);
+  background-size: cover;
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.auth-container {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  text-align: center;
+  width: 350px;
+}
+
+.logo {
+  width: 170px;
+  margin-bottom: 0px;
+}
+
+.form-box {
+  margin-top: 1rem;
+}
+
+.form-box.hidden {
+  display: none;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #666666
+
+;
+  border: none;
+  color:white;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #4d4d4d;
+}
+
+.switch {
+  margin-top: 1rem;
+  font-size: 0.85rem;
+}
+
+.switch a {
+  color: #b22222;
+  text-decoration: none;
+}
+
+.button2 {
+  color: white;
+}
+
+.button1 {
+  color: white;
+}
+
+/* For tablets and smaller laptops */
+@media (max-width: 768px) {
+  .auth-container {
+    width: 60%;
+    padding: 1.5rem;
+  }
+
+  .logo {
+    width: 140px;
+  }
+}
+
+/* For mobile devices */
+@media (max-width: 480px) {
+  .auth-container {
+    width: 60%;
+    padding: 1rem;
+  }
+
+  form input,
+  form button {
+    padding: 8px;
+    font-size: 0.9rem;
+  }
+
+  .logo {
+    width: 120px;
+  }
+}
