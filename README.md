@@ -1,4 +1,4 @@
-![Logo](./images/login%20page%20logo.png) Style Hub — 
+👑 Style Hub — 
 
 Clothing Brand Website
 Style Hub: Style That Speaks — A responsive clothing brand website built using HTML and CSS, showcasing fashion collections for both men and women.
@@ -66,12 +66,21 @@ Hosted on Netlify
 
 This project is built for learning and showcasing front-end development skills.
 
+Contributers -
 
-## Contributors
+<p align="center"> <a href="https://github.com/OmKadam-1"> <img src="https://avatars.githubusercontent.com/OmKadam-1" width="70px;" alt="Om Kadam"/><br /> <sub><b>Om Kadam</b></sub> </a>
+  
 
-- [Om Kadam](https://github.com/OmKadam-1)
-- [Atharv Bolke](https://github.com/AtharvBolke99)
-- [Suraj Chavan](https://github.com/suraj0620)
-- [Gauri Kale](https://github.com/kalegauri31)
-- [Snehal Khater](https://github.com/snehalkhater)
-- [Riya Pawar](https://github.com/riyuu4725)
+<a href="https://github.com/AtharvBolke99"> <img src="https://avatars.githubusercontent.com/AtharvBolke99" width="70px;" alt="Atharv Bolke"/><br /> <sub><b>Atharv Bolke</b></sub> </a>
+  
+
+<a href="https://github.com/suraj0620"> <img src="https://avatars.githubusercontent.com/suraj0620" width="70px;" alt="Suraj Chavan"/><br /> <sub><b>Suraj Chavan</b></sub> </a>
+  
+
+<a href="https://github.com/kalegauri31"> <img src="https://avatars.githubusercontent.com/kalegauri31" width="70px;" alt="Gauri Kale"/><br /> <sub><b>Gauri Kale</b></sub> </a>
+  
+
+<a href="https://github.com/snehalkhater"> <img src="https://avatars.githubusercontent.com/snehalkhater" width="70px;" alt="Snehal Khater"/><br /> <sub><b>Snehal Khater</b></sub> </a>
+  
+
+<a href="https://github.com/riyuu4725"> <img src="https://avatars.githubusercontent.com/riyuu4725" width="70px;" alt="Riya Pawar"/><br /> <sub><b>Riya Pawar</b></sub> </a> </p>
