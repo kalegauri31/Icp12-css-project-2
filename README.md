@@ -27,8 +27,7 @@
 ## 🌐 Live Preview
 
 - Hosted on Netlify
-- Click on - ![Style Hub](https://stylehubin.netlify.app/)
-
+- Click on - https://stylehubin.netlify.app/
 
 
 ## 🛠️ Technologies Used
