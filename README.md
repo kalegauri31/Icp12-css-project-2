@@ -9,19 +9,26 @@
 - ✅ Navigation for easy access
 - ✅ Easy to use
 
-- Home
+- ✅ Home
 
-- Men's Fashion
+- ✅ Men's Fashion
 
-- Women's Fashion
+- ✅ Women's Fashion
 
-- Contact
+- ✅ Contact
 
-- Login/Register
+- ✅ Login/Register
 
 - ✅ "New Arrival" section for latest collections
 - ✅ Clean and minimalistic design
 - ✅ Fully responsive structure (adjusts to different screen sizes)
+
+
+## 🌐 Live Preview
+
+- Hosted on Netlify
+- Click on - ![Style Hub](https://stylehubin.netlify.app/)
+
 
 
 ## 🛠️ Technologies Used
@@ -43,10 +50,6 @@ Download or Clone this repository
 Open index.html in your browser
 
 Explore the Style Hub homepage and fashion sections
-
-## 🌐 Live Preview
-
-- Hosted on Netlify
 
 
 ## 📸 Screenshot
