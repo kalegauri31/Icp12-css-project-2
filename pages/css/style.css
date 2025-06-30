@@ -9,6 +9,14 @@ body {
     background-color: #f9f9f9;
     color: #333;
 }
+.navbar{
+    text-align: center;
+}
+.menubar {
+    
+    list-style: none;
+    text-align: center;
+}
 .contact-container{
     max-width: 980px;
     margin: 50px auto;
@@ -19,7 +27,7 @@ body {
 }
 h1{
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     color: #222;
 }
 .subtitile{
@@ -75,7 +83,7 @@ h1{
 }
 .contact-info p{
     margin-bottom: 10px;
-    color: #555;
+    color: #181717;
 }
 @media(max-width:768px){
     .contact-box{
