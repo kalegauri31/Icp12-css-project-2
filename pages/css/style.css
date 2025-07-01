@@ -90,3 +90,158 @@ h1{
         flex-direction: column;
     }
 }
+.reviews {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #FFD6AA;
+    padding: 15px;
+    align-items: center;
+}
+
+.reviews-head {
+    padding-top: 30px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    text-transform: uppercase;
+}
+
+.title-reviews {
+
+    display: inline-block;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.msg {
+
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+.name {
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #A52A2A;
+    font-weight: bold;
+    margin-bottom: 30px;
+
+}
+
+@media (max-width : 768px) {
+
+    .reviews {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        background-color: #FFD6AA;
+        padding: 0px;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .msg {
+
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.logo-name {
+    font-size: 30px;
+    font-family: cursive;
+    text-transform: uppercase;
+    color: #707070;
+}
+
+.Copyright {
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #707070;
+
+}
+
+.quick-links {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+.quick-links-font {
+
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #636161;
+
+}
+
+.link{
+    color: #707070;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+}
+
+.follow-link {
+   display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.Address {
+
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #707070;
+}
+
+.social-media-pic {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.social-media {
+    width: 30px;
+    margin: 10px;
+}
+
+.social-media:hover {
+    background-color: #19c880;
+    transition: 0.2s;
+}
+
+.link:hover {
+    color: #19c880;
+    transition: 0.2s;
+}
+
+@media (max-width:768px) {
+
+    .quick-links {
+        display: none;
+    }
+
+}
+
+.info:hover {
+    color: #19c880;
+    transition: 0.2s;
+}
