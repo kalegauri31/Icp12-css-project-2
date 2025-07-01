@@ -316,6 +316,21 @@ body {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 15px;
         cursor: pointer;
+        text-decoration: none;
+    }
+
+       .btn-content {
+        border: none;
+        width: 200px;
+        padding: 10px;
+        margin-top: 20px;
+        color: white;
+        background-color: #19c880;
+        border-radius: 3px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+        cursor: pointer;
+        text-decoration: none;
     }
 
 }

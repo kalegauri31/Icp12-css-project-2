@@ -170,9 +170,9 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-top: 130px;
+    margin-top: 0px;
     max-width: 100%;
-    height: auto;
+    height: 100%;
     background-image: url("../images/home-main-img.jpg");
     background-size: cover;
     background-position: center;
@@ -180,6 +180,49 @@ body {
     aspect-ratio: 16/7;
 
 }
+
+.back-img-2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 130px;
+    max-width: 100%;
+    height: auto;
+    background-image: url("../images/sale_offer.avif");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    aspect-ratio: 16/7;
+}
+
+.back-img-2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 130px;
+    max-width: 100%;
+    height: auto;
+    background-image: url("../images/background_img.avif");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    aspect-ratio: 16/7;
+}
+
+.back-img-3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    max-width: 100%;
+    height: auto;
+    background-image: url("../images/background_img_2.avif");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    aspect-ratio: 16/7;
+}
+
 
 
 .main-heading {
