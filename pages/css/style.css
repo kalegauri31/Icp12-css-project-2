@@ -1,0 +1,247 @@
+/*style.css*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+.navbar{
+    text-align: center;
+}
+.menubar {
+    
+    list-style: none;
+    text-align: center;
+}
+.contact-container{
+    max-width: 980px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0 , 0, 0.05);
+}
+h1{
+    text-align: center;
+    margin-bottom: 30px;
+    color: #222;
+}
+.subtitile{
+    text-align: center;
+    margin-bottom: 40px;
+    color: #555;
+}
+.contact-box{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-between;
+}
+.contact-form{
+    flex: 1 1 55%;
+    display: flex;
+    flex-direction: column;
+}
+.contact-form label{
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+.contact-form input,
+.contact-form textarea{
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+.contact-form button{
+    padding: 12px;
+    background-color: #222;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    cursor:pointer;
+    transition:background 0.3s;
+}
+.contact-form button:hover{
+    background-color: #444;
+}
+.contact-info{
+    flex: 1 1 35%;
+    background-color: #f3f3f3;
+    padding:20px;
+    border-radius: 10px;
+}
+.contact-info h2{
+    margin-bottom: 15px;
+    color: #111;
+}
+.contact-info p{
+    margin-bottom: 10px;
+    color: #181717;
+}
+@media(max-width:768px){
+    .contact-box{
+        flex-direction: column;
+    }
+}
+.reviews {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #FFD6AA;
+    padding: 15px;
+    align-items: center;
+}
+
+.reviews-head {
+    padding-top: 30px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    text-transform: uppercase;
+}
+
+.title-reviews {
+
+    display: inline-block;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.msg {
+
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+.name {
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #A52A2A;
+    font-weight: bold;
+    margin-bottom: 30px;
+
+}
+
+@media (max-width : 768px) {
+
+    .reviews {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        background-color: #FFD6AA;
+        padding: 0px;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .msg {
+
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.logo-name {
+    font-size: 30px;
+    font-family: cursive;
+    text-transform: uppercase;
+    color: #707070;
+}
+
+.Copyright {
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #707070;
+
+}
+
+.quick-links {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+.quick-links-font {
+
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #636161;
+
+}
+
+.link{
+    color: #707070;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+}
+
+.follow-link {
+   display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.Address {
+
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #707070;
+}
+
+.social-media-pic {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.social-media {
+    width: 30px;
+    margin: 10px;
+}
+
+.social-media:hover {
+    background-color: #19c880;
+    transition: 0.2s;
+}
+
+.link:hover {
+    color: #19c880;
+    transition: 0.2s;
+}
+
+@media (max-width:768px) {
+
+    .quick-links {
+        display: none;
+    }
+
+}
+
+.info:hover {
+    color: #19c880;
+    transition: 0.2s;
+}
