@@ -17,6 +17,7 @@ body {
 .menubar {
     list-style: none;
     text-align: center;
+    flex: auto;
 }
 .contact-container{
     max-width: 980px;
@@ -133,18 +134,6 @@ h1{
 }
 
 @media (max-width : 768px) {
-
-    .reviews {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        flex-wrap: wrap;
-        background-color: #FFD6AA;
-        padding: 0px;
-        align-items: center;
-        text-align: center;
-        width: 100%;
-    }
 
     .msg {
 
