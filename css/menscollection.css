@@ -193,12 +193,10 @@ body{
       color: #fff;
       margin: 10px 0 5px;
     }
-     main-heading {
-    font-size: 25px;
-    text-align: center;
-    color: #707070;
-    font-family: 'Courier New', Courier, monospace;
-}
+     
+    
+    
+
 
 .main-content,
 .main-content-2,
@@ -225,7 +223,7 @@ body{
     cursor: pointer;
 }
 .card:hover{
-    margin: 10px;
+    margin: 3px;
 }
 
 .info {
@@ -265,9 +263,9 @@ body{
 }
 .main-heading{
     text-align: center;
-    color:aliceblue;
-    background-color:darkslategrey;
+    color:grey;
     border-radius: 5px;
+    font-weight: 20px;
 }
 .Discount{
     font-weight: 20px;
@@ -284,4 +282,97 @@ body{
 }
 .Cart:hover{
     box-shadow: 0 0 5px green;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.logo-name {
+    font-size: 30px;
+    font-family: cursive;
+    text-transform: uppercase;
+    color: #707070;
+}
+
+.Copyright {
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #707070;
+
+}
+
+.quick-links {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+.quick-links-font {
+
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #707070;
+
+}
+
+.link{
+    color: #707070;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+}
+
+.follow-link {
+   display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.Address {
+
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #707070;
+}
+
+.social-media-pic {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.social-media {
+    width: 30px;
+    margin: 10px;
+}
+
+.social-media:hover {
+    background-color: #19c880;
+    transition: 0.2s;
+}
+
+.link:hover {
+    color: #19c880;
+    transition: 0.2s;
+}
+
+@media (max-width:768px) {
+
+    .quick-links {
+        display: none;
+    }
+
+}
+
+.info:hover {
+    color: #19c880;
+    transition: 0.2s;
 }
