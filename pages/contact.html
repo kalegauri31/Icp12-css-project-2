@@ -3,7 +3,6 @@
     <head>
     <title>contact</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    </head>
     <body>
          <div style="height: 90px;">
       <body>
@@ -30,17 +29,53 @@
                     <input type="email" id="email" name="email" required/><br><br>
                     <label for="message"> Your Message</label>
                     <textarea id="message" name="message" rows="5" required></textarea><br><br>
-                    <button type="submit"> Send Message</button>
+                    <a href="response.html" method="get"> </a>
+                    <button type="submit"><a href="response.html" method="get"> Send Message</a></button>
                     </form>
-                    <form action="response.html" method="get">
-                        <label for="response">your response</label><br>
-                        <button type="submit">Submit</button>
-                        </form>
-                    <div class="contact-info">
+<head>
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet/dist/leaflet.css"
+  />
+  <style>
+    #map {
+      height: 500px;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <h2>Live Location Map</h2>
+  <div id="map"></div>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script>
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition(function(position) {
+        const lat = position.coords.latitude;
+        const lon = position.coords.longitude;
+
+        const map = L.map('map').setView([lat, lon], 13);
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+          attribution: '© OpenStreetMap contributors'
+        }).addTo(map);
+
+        L.marker([lat, lon]).addTo(map)
+          .bindPopup('You are here!')
+          .openPopup();
+      });
+    } else {
+      alert("Geolocation is not supported by your browser");
+    }
+  </script>
+</body>
+           <div class="contact-info">
                         <h2> Get in Touch </h2>
                         <p> <a href="mailto Email:contact@stylehub.com">  contact@stylehub.com </a></p>
                         <p> <a href="tel:+91 9043989090"> click here to call us</a></p>
                         <p> Address:123 Fashion Street, India </p>
+
              <footer>
                 <div class="reviews"><hr><br>
 
